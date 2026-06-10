@@ -105,7 +105,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Không phải Bán hàng.<br/>Đây là <span className="text-gold">Participation Economy.</span></h2>
+              <h2 className="text-4xl font-bold mb-6">Không phải Bán hàng.<br/>Đây là <span className="text-gold">Nền kinh tế Tham gia.</span></h2>
               <div className="space-y-6 text-gray-300">
                 <p>
                   MLM truyền thống tập trung vào việc mở rộng mạng lưới: Tuyển người mới → Tạo doanh thu. Khi không tuyển được người, hệ thống sụp đổ.
@@ -289,7 +289,7 @@ export default function Home() {
                 RIFT có phải là mô hình lấy tiền người sau trả người trước (Ponzi)?
               </h3>
               <p className="text-gray-300 ml-8 leading-relaxed">
-                Tuyệt đối không. RIFT hoạt động theo mô hình <strong>Participation Economy</strong>. Doanh thu của hệ thống sinh ra từ việc bán quyền truy cập phần mềm và phí hiệu quả (Success Fee - chỉ thu khi AI giao dịch có lãi cho khách). Dòng tiền chiết khấu 100% đến từ giá trị thặng dư được tạo ra trên thị trường tài chính thực.
+                Tuyệt đối không. RIFT hoạt động theo mô hình <strong>Nền kinh tế Tham gia (Participation Economy)</strong>. Doanh thu của hệ thống sinh ra từ việc bán quyền truy cập phần mềm và phí hiệu quả (Success Fee - chỉ thu khi AI giao dịch có lãi cho khách). Dòng tiền chiết khấu 100% đến từ giá trị thặng dư được tạo ra trên thị trường tài chính thực.
               </p>
             </div>
             
