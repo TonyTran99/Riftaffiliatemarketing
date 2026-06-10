@@ -10,8 +10,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gold rounded-lg flex items-center justify-center font-bold text-black text-xl">R</div>
-              <span className="text-2xl font-bold tracking-wider">RIFT <span className="text-gold">AI</span></span>
+              <Image src="/logo.jpg" alt="RIFT Logo" width={40} height={40} className="rounded-lg object-cover" />
+              <span className="text-2xl font-bold tracking-wider hidden sm:inline">RIFT <span className="text-gold">AI</span></span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-300 hover:text-gold transition">Participation Economy</a>
@@ -54,15 +54,8 @@ export default function Home() {
           <div className="relative z-10 flex justify-center">
             <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-              {/* Note: User will need to add ceo.png to public/images */}
-              <div className="w-full h-full bg-zinc-900 flex flex-col items-center justify-center text-zinc-600 p-8 text-center">
-                <span className="text-sm border border-zinc-700 p-4 rounded mb-4">
-                  [Hình ảnh CEO RIFT]
-                  <br/>
-                  *Vui lòng copy file hình CEO vào thư mục public/images/ceo.png*
-                </span>
-                <span className="text-xs italic">(Xóa text này và uncomment thẻ Image trong code)</span>
-                {/* <Image src="/images/ceo.png" alt="RIFT AI CEO" fill className="object-cover" /> */}
+              <div className="w-full h-full bg-zinc-900 relative">
+                <Image src="/ceo.jpg" alt="RIFT AI CEO" fill className="object-cover object-top" />
               </div>
               <div className="absolute bottom-6 left-6 z-20">
                 <p className="text-gold font-bold text-xl">Đồng hành cùng RIFT</p>
@@ -296,7 +289,7 @@ export default function Home() {
       <footer className="bg-black border-t border-white/10 py-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-gold rounded flex items-center justify-center font-bold text-black">R</div>
+            <Image src="/logo.jpg" alt="RIFT Logo" width={32} height={32} className="rounded object-cover" />
             <span className="text-xl font-bold tracking-wider">RIFT <span className="text-gold">AI</span></span>
           </div>
           
