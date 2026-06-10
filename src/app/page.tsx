@@ -14,9 +14,9 @@ export default function Home() {
               <span className="text-2xl font-bold tracking-wider hidden sm:inline">RIFT <span className="text-gold">AI</span></span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="text-gray-300 hover:text-gold transition">Participation Economy</a>
+              <a href="#about" className="text-gray-300 hover:text-gold transition">Nền kinh tế Tham gia</a>
               <a href="#commission" className="text-gray-300 hover:text-gold transition">Thu nhập kép</a>
-              <a href="https://giaidapriftprotocol.vercel.app/" target="_blank" className="text-gray-300 hover:text-gold transition">Tìm hiểu thêm</a>
+              <a href="#resources" className="text-gray-300 hover:text-gold transition">Tài nguyên & FAQ</a>
             </div>
             <div>
               <a href="https://zalo.me/0935635788" target="_blank" className="bg-gold text-black px-6 py-2 rounded-full font-semibold hover:bg-gold-light transition shadow-[0_0_15px_rgba(212,175,55,0.4)]">
@@ -220,29 +220,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof & Video */}
-      <section className="py-24 relative">
+      {/* Knowledge Hub & Social Proof */}
+      <section id="resources" className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Minh bạch. An toàn. <br/><span className="text-gold">Được chứng minh bởi Cộng đồng.</span></h2>
+              <h2 className="text-3xl font-bold mb-6">Kho Thông Tin & <br/><span className="text-gold">Hệ Sinh Thái Tài Nguyên.</span></h2>
               <p className="text-gray-400 mb-8">
-                Hơn 6.000 thành viên toàn cầu đang tạo dòng tiền thực. Xem các chuỗi video đào tạo trực tiếp từ CEO để hiểu sâu về công nghệ lõi và tầm nhìn của dự án.
+                RIFT cung cấp đầy đủ hành trang kiến thức, video đào tạo trực tiếp từ CEO và tài liệu minh bạch giúp Đối tác dễ dàng tìm hiểu và lan tỏa giá trị đến cộng đồng.
               </p>
               
               <div className="space-y-4 mb-8">
+                <a href="https://dautucongngheai.vercel.app/" target="_blank" className="flex items-center gap-4 p-4 bg-gold/10 rounded-xl border border-gold/30 hover:bg-gold/20 transition group shadow-[0_0_15px_rgba(212,175,55,0.1)]">
+                  <Globe className="text-gold group-hover:scale-110 transition" size={32} />
+                  <div>
+                    <h4 className="font-bold text-gold text-lg">Trang Thông Tin Sản Phẩm</h4>
+                    <p className="text-sm text-gray-400">Tổng quan về AI RIFT & Lợi nhuận chi tiết</p>
+                  </div>
+                </a>
                 <a href="https://www.youtube.com/playlist?list=PLBkXqcyBeXu8gTGAvgpbIJxN7l4JiJfcx" target="_blank" className="flex items-center gap-4 p-4 bg-zinc-900/50 rounded-xl border border-white/10 hover:border-gold/50 transition group">
                   <PlayCircle className="text-red-500 group-hover:scale-110 transition" size={32} />
                   <div>
                     <h4 className="font-bold text-white">Video CEO đào tạo công nghệ</h4>
-                    <p className="text-sm text-gray-400">Công nghệ sản phẩm AI RIFT</p>
+                    <p className="text-sm text-gray-400">Phân tích chuyên sâu hệ thống lõi</p>
                   </div>
                 </a>
                 <a href="https://www.youtube.com/playlist?list=PLBkXqcyBeXu-SJu1on3wT_5Rt1TZd4f_z" target="_blank" className="flex items-center gap-4 p-4 bg-zinc-900/50 rounded-xl border border-white/10 hover:border-gold/50 transition group">
                   <PlayCircle className="text-red-500 group-hover:scale-110 transition" size={32} />
                   <div>
                     <h4 className="font-bold text-white">Giới thiệu RIFT từ A-Z</h4>
-                    <p className="text-sm text-gray-400">Toàn cảnh hệ sinh thái</p>
+                    <p className="text-sm text-gray-400">Bộ tài liệu chuẩn dành cho người mới</p>
                   </div>
                 </a>
               </div>
@@ -255,12 +262,55 @@ export default function Home() {
               </div>
               <div className="bg-zinc-900 border border-white/5 p-6 rounded-2xl text-center">
                 <div className="text-4xl font-extrabold text-gold mb-2">100%</div>
-                <div className="text-sm text-gray-400">Tiền trong ví khách</div>
+                <div className="text-sm text-gray-400">Tiền nằm ví khách hàng</div>
               </div>
-              <div className="bg-zinc-900 border border-white/5 p-6 rounded-2xl text-center col-span-2">
+              <div className="bg-zinc-900 border border-white/5 p-6 rounded-2xl text-center col-span-2 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gold/10 blur-[30px]"></div>
                 <div className="text-4xl font-extrabold text-gold mb-2">AI HFT</div>
-                <div className="text-sm text-gray-400">Giao dịch tần suất cao thông minh</div>
+                <div className="text-sm text-gray-400">Giao dịch Tần suất cao Thông minh</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-24 bg-zinc-950 border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">Hỏi Đáp <span className="text-gold">Chuyên Sâu</span></h2>
+            <p className="text-gray-400">Minh bạch thông tin là chìa khóa để xây dựng hệ sinh thái bền vững.</p>
+          </div>
+          
+          <div className="space-y-6">
+            <div className="bg-black border border-white/10 p-6 rounded-2xl hover:border-gold/30 transition">
+              <h3 className="text-xl font-bold text-gold mb-3 flex items-start gap-3">
+                <CheckCircle2 className="shrink-0 mt-1" size={20} />
+                RIFT có phải là mô hình lấy tiền người sau trả người trước (Ponzi)?
+              </h3>
+              <p className="text-gray-300 ml-8 leading-relaxed">
+                Tuyệt đối không. RIFT hoạt động theo mô hình <strong>Participation Economy</strong>. Doanh thu của hệ thống sinh ra từ việc bán quyền truy cập phần mềm và phí hiệu quả (Success Fee - chỉ thu khi AI giao dịch có lãi cho khách). Dòng tiền chiết khấu 100% đến từ giá trị thặng dư được tạo ra trên thị trường tài chính thực.
+              </p>
+            </div>
+            
+            <div className="bg-black border border-white/10 p-6 rounded-2xl hover:border-gold/30 transition">
+              <h3 className="text-xl font-bold text-gold mb-3 flex items-start gap-3">
+                <CheckCircle2 className="shrink-0 mt-1" size={20} />
+                Khách hàng của tôi nạp tiền vào đâu? RIFT có giữ vốn không?
+              </h3>
+              <p className="text-gray-300 ml-8 leading-relaxed">
+                <strong>RIFT KHÔNG GIỮ VỐN.</strong> Khách hàng tự nạp tiền và giữ tài sản 100% trên ví Web3 cá nhân hoặc sàn giao dịch uy tín của họ (như Hyperliquid). RIFT chỉ là đơn vị cung cấp thuật toán AI, kết nối thông qua API/Smart Contract để giao dịch hộ và hoàn toàn không có quyền rút tiền của khách hàng.
+              </p>
+            </div>
+            
+            <div className="bg-black border border-white/10 p-6 rounded-2xl hover:border-gold/30 transition">
+              <h3 className="text-xl font-bold text-gold mb-3 flex items-start gap-3">
+                <CheckCircle2 className="shrink-0 mt-1" size={20} />
+                Nguồn thu nhập thụ động 5% từ lợi nhuận giao dịch liệu có bền vững?
+              </h3>
+              <p className="text-gray-300 ml-8 leading-relaxed">
+                Đây là nguồn thu nhập <strong>bền vững nhất</strong>. Chừng nào khách hàng của bạn còn sử dụng bot để giao dịch và sinh lời, họ sẽ tiếp tục trả Success Fee. Hệ thống trích quỹ thưởng này chia lại cho mạng lưới. Khách hàng kiếm được tiền, bạn cũng kiếm được tiền hàng ngày.
+              </p>
             </div>
           </div>
         </div>
