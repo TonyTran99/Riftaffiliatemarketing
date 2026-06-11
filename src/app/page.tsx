@@ -309,7 +309,7 @@ export default function Home() {
                 Nguồn thu nhập thụ động 5% từ lợi nhuận giao dịch liệu có bền vững?
               </h3>
               <p className="text-gray-300 ml-8 leading-relaxed">
-                Đây là nguồn thu nhập <strong>bền vững nhất</strong>. Chừng nào khách hàng của bạn còn sử dụng bot để giao dịch và sinh lời, họ sẽ tiếp tục trả Success Fee. Hệ thống trích quỹ thưởng này chia lại cho mạng lưới. Khách hàng kiếm được tiền, bạn cũng kiếm được tiền hàng ngày.
+                Đây là nguồn thu nhập <strong>bền vững nhất</strong>. Chừng nào khách hàng của bạn còn sử dụng hệ thống AI giao dịch tự động và sinh lời, họ sẽ tiếp tục trả Success Fee. Hệ thống trích quỹ thưởng này chia lại cho mạng lưới. Khách hàng kiếm được tiền, bạn cũng kiếm được tiền hàng ngày.
               </p>
             </div>
           </div>
